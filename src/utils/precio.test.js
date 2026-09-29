@@ -26,5 +26,5 @@ describe(
         });
         it('dato invalido', ()=>{
             expect(()=> aplicarDescuento(100,101).toThrow('Porcentaje inválido'))
-        })
+        });
     });
